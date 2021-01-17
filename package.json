@@ -1,0 +1,12 @@
+{
+	"name": "trading-tips-discord-bot",
+	"version": "0.1.0",
+	"dependencies": {
+		"discord.js": "^12.2.0",
+		"dotenv": "^8.2.0",
+		"trading-tips": "git+https://github.com/byteball/trading-tips.git"
+	},
+	"resolutions": {
+		"level-rocksdb": "^4.0.0"
+	}
+}
