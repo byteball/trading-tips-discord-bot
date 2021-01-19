@@ -9,7 +9,6 @@ The trading recommendations are not financial advice, use at your own risk.
 **Important:** tested only with NodeJS version 12.
 
 - `yarn`
-- Run with `node run.js`, it will create an app data directory in `~/.conf/trading-tips-discord-bot` then fail due to configuration missing
 - While logged in to Discord webapp, create an application at https://discord.com/developers/applications 
 - Select the application, select bot in menu, copy the bot token
 - Copy `.env.sample` file to `.env` and complete it with the bot token and the channel id the bot will post to
