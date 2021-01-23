@@ -14,7 +14,7 @@ async function sendTips() {
 async function start() {
 
 	discord.init({ sendTips });
-	await sendTips();
+//	await sendTips();
 
 	tradingTips.subscribeToRequests(tips => {
 		console.log('new tips', tips);
