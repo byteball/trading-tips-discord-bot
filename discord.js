@@ -63,7 +63,7 @@ function sendTradingTip(tip) {
 	const objEmbed = new Discord.MessageEmbed()
 		.setColor('#0099ff')
 		.setTitle(`New trading tip: ${tip.action} ${tip.token}`)
-		.setURL(conf.stablecoins_base_url + tip.aa)
+		.setURL(conf.stablecoins_base_url + tip.aa + '/buy-redeem')
 		.addFields({ name: "Current price", value: `${tip.current_price.toPrecision(6)} ${tip.reserve_token || 'R'}`, inline: true })
 		.addFields({ name: "Target price", value: `${tip.target_price.toPrecision(6)} ${tip.reserve_token || 'R'}`, inline: true })
 		.addFields({ name: "Price difference", value: `${tip.price_difference_percentage.toPrecision(6)}%`, inline: true })
